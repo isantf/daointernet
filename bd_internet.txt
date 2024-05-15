@@ -1,0 +1,10 @@
+CREATE TABLE estudiantes (
+id int(11) auto_increment primary key,
+nombre VARCHAR(50),
+apellido VARCHAR(50),
+seminario VARCHAR(50),
+fecha date);
+
+insert into estudiantes (nombre, apellido, seminario, fecha) values ('Santos', 'Tarqui', 'Criptografía', '2024-05-15');
+
+select * from estudiantes;
